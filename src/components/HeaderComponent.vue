@@ -14,7 +14,7 @@ export default{
 
 <template>
 
-    <header class="container" >
+    <header class="container">
 
         <div class="logo">
         <img src="src/assets/img/dc-logo.png" alt="Logo">
@@ -90,9 +90,12 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 120px;
 
     .logo{
-        padding: 10px;
+        width: 50px;
     }
 
     ul{
@@ -118,7 +121,6 @@ header{
        }        
     }
 
-
 }
 
 .header-bottom{
@@ -127,6 +129,7 @@ header{
     margin: 0 auto;
     color: white;
     font-size: 2rem;
+    height: 120px;
 }
 
 

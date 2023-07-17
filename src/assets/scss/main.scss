@@ -8,20 +8,3 @@
 // p {
 //     @include main-coloring;
 // }
-
-.container{
-    max-width: 1400px;
-    margin: 0 auto;
-
-}
-
-*{
-    margin:0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    // selezonno qualunque cose che non sia un ul
-    &:not(ul){
-        padding:0;
-    }
-    
-}
