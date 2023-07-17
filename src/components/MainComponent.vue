@@ -59,7 +59,7 @@ export default{
 
     <!-- Main Bottom -->
     <section>
-        <div class="debug">
+        <div class="container debug">
             <!-- Container-Left -->
             <div class="container-left" >
                 <div class="container-section">
@@ -204,7 +204,7 @@ export default{
                 
             </div>
             
-            <div>
+            <div class="text-main-bottom-link">
                 <h4>
                     SITES
                 </h4>
@@ -281,10 +281,10 @@ section{
     background-image: url("src/assets/img/footer-bg.jpg");
     background-repeat:no-repeat;
     background-size: cover;
-    height:calc(100vh - 550px);
+    display:flex;
     .debug{
-        border: 3px solid yellow;
         display:flex;
+        justify-content: space-between;
         .logo{
             width:100%;
         }
