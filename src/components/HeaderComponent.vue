@@ -79,15 +79,6 @@ export default{
 
 <style lang="scss" scoped>
 
-*{
-    margin: 0 auto;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    // selezonno qualunque cose che non sia un ul
-    &:not(ul){
-        padding:0;
-    }
-}
 
 header{
     display: flex;

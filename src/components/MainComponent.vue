@@ -15,7 +15,9 @@ export default{
 <template>
 
     <main>
-        MAIN
+        <div class="container">
+            &rarr; Content goes here &larr;
+        </div>
     </main>
 
 </template>
@@ -24,7 +26,11 @@ export default{
 
 main{
     padding:40px;
-    text-align: center;
+    background-color: black;
+    margin: 0 auto;
+    color: white;
+    font-size: 3rem;
 }
+
 
 </style>
