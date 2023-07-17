@@ -14,7 +14,7 @@ export default{
 
 <template>
 
-    <header>
+    <header class="container" >
 
         <div class="logo">
         <img src="src/assets/img/dc-logo.png" alt="Logo">
@@ -27,7 +27,7 @@ export default{
                 </a>
             </li> 
             <li>
-                <a href="#">
+                <a href="#" class="active">
                     COMICS
                 </a>
             </li> 
@@ -75,6 +75,12 @@ export default{
             
     </header>
 
+    <section class="header-bottom">
+        <div class="container">
+            &rarr; Content goes here &larr;
+        </div>
+    </section>
+
 </template>
 
 <style lang="scss" scoped>
@@ -85,10 +91,13 @@ header{
     justify-content: space-between;
     align-items: center;
 
+    .logo{
+        padding: 10px;
+    }
+
     ul{
         display:flex;
         list-style: none;
-    }
 
         li{
             a{
@@ -99,9 +108,25 @@ header{
                 font-size: 1rem;
                 font-weight: bold;
 
+                &.active {
+                    color:#0282F9;
+                    text-decoration: underline;
+                }
+            
 
           }
-       }
+       }        
+    }
+
+
+}
+
+.header-bottom{
+    padding:40px;
+    background-color: black;
+    margin: 0 auto;
+    color: white;
+    font-size: 2rem;
 }
 
 
