@@ -59,7 +59,8 @@ export default{
 
     <!-- Main Bottom -->
     <section>
-        <div class="container debug">
+        <div class="container 
+        debug">
             <!-- Container-Left -->
             <div class="container-left" >
                 <div class="container-section">
@@ -238,8 +239,8 @@ export default{
             </div>
             </div>
             <!-- Container-right -->
-            <div class="logo">
-                <img src="src/assets/img/dc-logo-bg.png" alt="">
+            <div>
+                <img class="logo" src="src/assets/img/dc-logo-bg.png" alt="">
             </div>
 
         </div>
@@ -281,12 +282,14 @@ section{
     background-image: url("src/assets/img/footer-bg.jpg");
     background-repeat:no-repeat;
     background-size: cover;
-    display:flex;
+
     .debug{
         display:flex;
         justify-content: space-between;
+        height:-webkit-fill-available;
         .logo{
             width:100%;
+            object-fit:fill;
         }
 
         .container-left{
@@ -298,14 +301,14 @@ section{
             max-width:1400px;
             margin:0 auto;
             justify-content:space-between;
+            padding: 0 10px;
 
             .text-main-bottom{
             color:white;
             font-weight: bolder;
             font-size: 23px;
             text-decoration: none;
-            padding-top: 20px;
-            padding-bottom: 10px;
+            padding: 20px 10px 10px 0px;
           }
 
     }
@@ -315,8 +318,8 @@ section{
             font-weight: bolder;
             font-size: 23px;
             text-decoration: none;
-            padding-top: 20px;
-            padding-bottom: 10px;
+            padding: 20px 10px 10px 0px;
+
           }
                 
     ul{
